@@ -1,0 +1,17 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "\"concurrently \"cd server && node server.js\" \"cd client && npm start\"",
+    "install": "\"concurrently \"cd server && npm install\" \"cd client && npm install\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "react-paypal-express-checkout": "^1.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
